@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - WALIDOS LLC - Marketing That Works</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .bg-primary {
+            background-color: #0A2540;
+        }
+        .text-primary {
+            color: #0A2540;
+        }
+        .border-primary {
+            border-color: #0A2540;
+        }
+        .bg-accent {
+            background-color: #D4AF37;
+        }
+        .text-accent {
+            color: #D4AF37;
+        }
+        .border-accent {
+            border-color: #D4AF37;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+        .contact-card {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <span class="text-primary font-bold text-2xl">WALIDOS</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-primary font-medium hover:text-accent transition">Home</a>
+                    <a href="about.html" class="text-primary font-medium hover:text-accent transition">About</a>
+                    <a href="services.html" class="text-primary font-medium hover:text-accent transition">Services</a>
+                    <a href="portfolio.html" class="text-primary font-medium hover:text-accent transition">Portfolio</a>
+                    <a href=".html" class="text-primary font-medium hover:text-accent transition"></a>
+                    <a href="contact.html" class="text-primary font-medium hover:text-accent transition">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-primary focus:outline-none">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-primary text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6" data-aos="fade-up">Let's Talk About Your Growth</h1>
+            <p class="text-xl max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">Ready to take your business to the next level? Our team is here to help you craft a winning marketing strategy.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="contact-card bg-white p-8 rounded-xl shadow-lg" data-aos="fade-right">
+                    <h2 class="text-3xl font-bold text-primary mb-8">Send Us a Message</h2>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent outline-none transition">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent outline-none transition">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent outline-none transition">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent outline-none transition"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary hover:bg-blue-900 text-white font-bold py-3 px-8 rounded-full transition duration-300">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-card bg-white p-8 rounded-xl shadow-lg" data-aos="fade-left">
+                    <h2 class="text-3xl font-bold text-primary mb-8">Get in Touch</h2>
+                    <p class="text-gray-700 mb-8">Have questions or ready to get started? Fill out the form and we'll reach out within 24 hours. Whether you're a startup or an established brand, we'd love to help you achieve your goals.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="text-accent mr-4">
+                                <i data-feather="mail" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-primary mb-1">Email Us</h3>
+                                <a href="mailto:contact@StrategiRise.com" class="text-gray-700 hover:text-accent transition">contact@StrategiRise.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-accent mr-4">
+                                <i data-feather="phone" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-primary mb-1">Call Us</h3>
+                                <a href="tel:+12488063593" class="text-gray-700 hover:text-accent transition">+1 (248)-806-3593</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-accent mr-4">
+                                <i data-feather="map-pin" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-primary mb-1">Our Office</h3>
+                                <p class="text-gray-700">405 W. Greenlawn Ave. #g11 #1988<br>Lansing, Michigan 48910 US</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-12">
+                        <h3 class="font-bold text-primary mb-4">Business Hours</h3>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex justify-between">
+                                <span>Monday - Friday</span>
+                                <span>9:00 AM - 5:00 PM EST</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Saturday</span>
+                                <span>By Appointment</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-primary mb-12" data-aos="fade-up">Our Location</h2>
+            <div class="rounded-xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.123456789012!2d-84.12345678901234!3d42.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDA3JzI0LjQiTiA4NMKwMDcnMjQuNCJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-accent text-primary">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6" data-aos="fade-up">Get in touch today and let's build something great.</h2>
+            <a href="contact.html" class="inline-block bg-white hover:bg-gray-100 text-primary font-bold py-3 px-8 rounded-full transition duration-300" data-aos="fade-up" data-aos-delay="100">Contact Us Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">WALIDOS LLC</h3>
+                    <p class="mb-2"><i data-feather="mail" class="inline mr-2"></i> contact@StrategiRise.com</p>
+                    <p class="mb-2"><i data-feather="phone" class="inline mr-2"></i> +1 (248)-806-3593</p>
+                    <p class="mb-4"><i data-feather="map-pin" class="inline mr-2"></i> 405 W. Greenlawn Ave. #g11 #1988, Lansing, Michigan 48910 US</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-accent transition">Home</a></li>
+                        <li><a href="about.html" class="hover:text-accent transition">About</a></li>
+                        <li><a href="services.html" class="hover:text-accent transition">Services</a></li>
+                        <li><a href="portfolio.html" class="hover:text-accent transition">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href=".html" class="hover:text-accent transition"></a></li>
+                        <li><a href="contact.html" class="hover:text-accent transition">Contact</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Case Studies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-accent transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>© 2023 WALIDOS LLC – All Rights Reserved.</p>
+                <p class="text-sm mt-2 text-gray-400">This website is owned and operated by Strategirise LLC. Walidos LLC is a trade name/brand of Strategirise LLC and does not represent a separate legal entity. All payments are processed and received by Strategirise LLC via PayPal and Payoneer.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
